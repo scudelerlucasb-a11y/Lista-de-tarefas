@@ -1,39 +1,30 @@
 # Gerenciador de Tarefas
 
-Gerenciador de tarefas desenvolvido em Python, utilizando SQLite para armazenar informações de forma persistente.
+Aplicação de gerenciamento de tarefas desenvolvida em Python, com armazenamento de dados utilizando SQLite.
 
-### Funcionalidades
+O projeto permite organizar tarefas por meio de um menu interativo no terminal.
 
-- Adicionar novas tarefas.
-- Listar tarefas cadastradas.
-- Remover tarefas pelo ID.
-- Definir um título personalizado para o gerenciador.
-- Salvar tarefas e configurações em um banco de dados local.
+## Funcionalidades
 
-### Tecnologias
+- Cadastro de tarefas.
+- Visualização das tarefas cadastradas.
+- Remoção de tarefas pelo identificador (ID).
+- Personalização do título da aplicação.
+- Salvamento automático das informações no banco de dados.
 
-- Python
+## Tecnologias
+
+- Python 3
 - SQLite
-- Biblioteca `sqlite3`
 
-### Como executar
+## Execução
 
 ```bash
-git clone URL_DO_REPOSITORIO
-cd nome-do-projeto
 python main.py
 ```
 
-O banco de dados `tarefas.db` é criado automaticamente na primeira execução.
+O banco de dados é criado automaticamente durante a primeira execução, sem necessidade de configuração manual.
 
-### Conceitos aplicados
+## Sobre o projeto
 
-- Lógica de programação.
-- Operações SQL (INSERT, SELECT e DELETE).
-- Integração entre Python e SQLite.
-- Manipulação de dados.
-- Tratamento de exceções.
-
----
-
-Projeto desenvolvido para praticar Python e manipulação de banco de dados.
+Desenvolvido para praticar a integração entre Python e bancos de dados relacionais, utilizando comandos SQL para inserir, consultar e excluir registros.
