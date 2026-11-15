@@ -1,0 +1,65 @@
+# 📝 Gerenciador de Tarefas
+
+Projeto desenvolvido em **Python** com integração ao **SQLite**, permitindo gerenciar tarefas diretamente pelo terminal.
+
+A aplicação oferece funcionalidades para adicionar, visualizar e remover tarefas, armazenando os dados em um banco de dados local.
+
+## 🚀 Funcionalidades
+
+- **Adicionar tarefas:** permite cadastrar novas tarefas.
+- **Visualizar tarefas:** exibe todas as tarefas cadastradas com seus respectivos IDs.
+- **Remover tarefas:** permite excluir uma tarefa específica pelo ID.
+- **Título personalizado:** solicita um título na primeira execução e armazena essa configuração no banco de dados.
+- **Armazenamento persistente:** utiliza SQLite para salvar as informações, mantendo os dados mesmo após encerrar o programa.
+
+## 🛠️ Tecnologias utilizadas
+
+- **Python 3** – Linguagem utilizada no desenvolvimento.
+- **SQLite** – Banco de dados para armazenamento das tarefas e configurações.
+- **sqlite3** – Biblioteca nativa do Python para integração com SQLite.
+
+## ▶️ Como executar
+
+1. Clone o repositório:
+
+```bash
+git clone URL_DO_SEU_REPOSITORIO
+```
+
+2. Entre na pasta do projeto:
+
+```bash
+cd nome-do-projeto
+```
+
+3. Execute o programa:
+
+```bash
+python main.py
+```
+
+> Não é necessário instalar bibliotecas externas, pois o projeto utiliza recursos nativos do Python.
+
+## 📂 Banco de dados
+
+O projeto utiliza o banco de dados `tarefas.db`, que contém duas tabelas:
+
+- `tarefas`: armazena o ID e a descrição de cada tarefa.
+- `configuracoes`: armazena configurações do programa, como o título personalizado.
+
+O banco de dados é criado automaticamente na primeira execução.
+
+## 🎯 Objetivo do projeto
+
+Praticar conceitos fundamentais de Python e banco de dados, incluindo:
+
+- Operações CRUD (Create, Read e Delete).
+- Integração com SQLite.
+- Comandos SQL.
+- Estruturas condicionais e de repetição.
+- Tratamento de erros com `try/except`.
+- Persistência de dados.
+
+---
+
+**Desenvolvido como projeto de prática em Python.**
